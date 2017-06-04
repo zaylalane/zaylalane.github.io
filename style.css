@@ -1,6 +1,21 @@
+@import "reset.css";
+
 html {
   background: url("img/bg.png") no-repeat center center fixed;
   background-size: cover;
+  height: 100%;
+}
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
 
+.main {
+  background-color: white;
+  height: 90%;
+  width: 90%;
 }
